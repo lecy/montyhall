@@ -1,0 +1,25 @@
+Package: montyhall
+Title:  The 3-Door Monty Hall Problem to Determine Probability of Winning and Losing in Case of Switching Door or Staying on The Initial Selection
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Rami",
+           family = "Assaad",
+           role = c("aut", "cre"),
+           email = "rassaad@asu.edu",
+           comment = c(ORCID = "0000-0001-6230-9589"))
+Description: The package is designed to play the Monty Hall game, where there are
+ three doors for a contestant to choose from, one of which has a car 
+behind it and two have goats. The contestant selects a door, then the 
+host opens a door to reveal a goat, and then the contestant is allowed
+ to stay with their original selection or switch to the other unopened 
+door. There was a famous debate about whether it was optimal to stay
+ or switch when given the option to switch, so this simulation was 
+created to test both strategies. 
+Depends:
+    dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
